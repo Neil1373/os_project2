@@ -1,15 +1,15 @@
 # OS Project 2 (Group 12)
 
 ## source code folders
+* `./data`         : input/output data
+* `./ksocket`      : the device moudule including the funtions used for kernel socket
 * `./master_device`: the device moudule for master server
 * `./slave_device` : the device moudule for slave client
-* `./ksocket`      : the device moudule including the funtions used for kernel socket
-* `./data`         : input/output data
 * `./user_program` : the user program "master" and "slave"
 
 
 ## Executing Procedures
-1. change to super user
+1. switch to super user (`$sudo -i`)
 2. execute `./compile.sh` to compile codes and install modules
 3. follow the input instrutions in the spec. i.e.
 `./master ../data/file1_in mmap`
@@ -18,4 +18,3 @@
 ## Notice
 * Make sure that you are under the path `./user_program` when you execute user programs.
 * Though the execution order of user program `master` and `slave` does not matter, it is suggested to execute `master` first to get more precise transmission time.
-
