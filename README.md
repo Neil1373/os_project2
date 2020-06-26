@@ -1,5 +1,5 @@
 # OS Project 2 (Group 12)
-
+**Team Collaborated Project - Synchronous Virtual Device**
 ## Source Code Folders
 * `./data`         : input/output data
 * `./ksocket`      : the device moudule including the funtions used for kernel socket
